@@ -9,7 +9,7 @@
     "start": "NODE_ENV=development webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Retail Insights",
   "resolveJsonModule": true,
   "esModuleInterop": true,
   "license": "ISC",
