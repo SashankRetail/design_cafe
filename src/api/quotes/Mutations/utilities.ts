@@ -1,0 +1,36 @@
+export interface PaymentMilestoneData {
+  id: number;
+  status: string;
+  totalpayableamount: number;
+  advanceamount: number;
+  amountpaid: number;
+  siteserviceamount: number;
+  amountdue: number;
+  freezedmodular: number;
+  freezedsiteservice: number;
+  isfreezed: boolean;
+  milestonename: string;
+  modularamount: number;
+  paymentvalue: string;
+  duedate: Date;
+  sequence: number;
+  projectid: number;
+  createdat: Date;
+  updatedat: Date;
+  invoicebaseamount: number;
+  invoicedate: string;
+  invoicenumber: string;
+  invoicetotalamount: number;
+  invoicetotalcgstaxamount: number;
+  invoicetotaligsttaxamount: number;
+  invoicetotalsgsttaxamount: number;
+  invoicetotaltaxamount: number;
+  invoiceurl: string;
+  paymentlink: string;
+  milestonesfid: string;
+  paymentlinkid: string;
+  rpayorderid: string;
+  receiptid: string;
+  paymentid?: string;
+  addonamount: number;
+}
